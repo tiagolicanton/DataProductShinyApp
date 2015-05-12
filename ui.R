@@ -26,7 +26,7 @@ shinyUI(fluidPage(
                            "1/4 mile time" = "qsec",
                            "Transmission" = "am",
                            "Gears" = "gear",
-                           "Carburetors" = "carb"),selected=c('cyl'))
+                           "Carburetors" = "carb"),selected=c())
     ),
     
     
