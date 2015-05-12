@@ -12,6 +12,9 @@ shinyUI(fluidPage(
   # Application title
   titlePanel("Model training for mtcars"),
   
+  p("Documentation could be found ",
+    tags$a(href="http://tiagolicanton.github.io/DataProductShinyAppSlidify/#1", "here")),
+  
   # Sidebar with controls to provide a way to select different combination
   # of variables from mtcars
   sidebarLayout(
@@ -29,7 +32,8 @@ shinyUI(fluidPage(
                            "Carburetors" = "carb"),selected=c())
     ),
     
-    
+   
+
     
     # Show the trained model based on selected variables
     mainPanel(
